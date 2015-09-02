@@ -1,17 +1,17 @@
 {
-  "name": "image-preview",
-  "version": "0.0.3",
-  "description": "Image preview is plugin that loads image selected by input file field without uploading it on server.",
+  "name": "social-network-text",
+  "version": "0.0.2",
+  "description": "Format text to social text, support ## and @.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mambahao/image-preview.git"
+    "url": "git@github.com:mambahao/SocialNetworkText.git"
   },
   "author": "Justin Hao - https://github.com/mambahao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mambahao/image-preview/issues"
+    "url": "https://github.com/mambahao/SocialNetworkText/issues"
   },
-  "homepage": "https://github.com/mambahao/image-preview",
+  "homepage": "https://github.com/mambahao/SocialNetworkText",
   "devDependencies": {
     "grunt": "*",
     "grunt-contrib-jshint": "*",

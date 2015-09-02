@@ -1,7 +1,7 @@
 {
   "name": "social-network-text",
   "main": "social-network-text.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/mambahao/SocialNetworkText",
   "authors": [
     "Justin Hao <justin@haoyufeng.com>"

@@ -3,7 +3,7 @@
  */
 (function ($) {
   var defaults = {
-    debug: true,
+    debug: false,
     atChar: '@',
     tagChar: '#',
     onTag: function(tag, txt) { return "<a href='" + txt + "'>" + tag + "</a>"; },
@@ -11,6 +11,8 @@
   };
 
   $.sntext = function(text, options) {
+    if(text && $.trim(text).length > 1) return text;
+
     var opts = $.extend({}, defaults, options);
     var result;
 
