@@ -1,6 +1,6 @@
 {
   "name": "social-network-text",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Format text to social text, support ## and @.",
   "repository": {
     "type": "git",

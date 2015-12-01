@@ -11,7 +11,7 @@
   };
 
   $.sntext = function(text, options) {
-    if(text && $.trim(text).length > 1) return text;
+    if(text && $.trim(text).length < 1) return text;
 
     var opts = $.extend({}, defaults, options);
     var result;
